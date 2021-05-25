@@ -1,0 +1,50 @@
+
+.items{
+    height: 325px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.left{
+    float: left;
+    width: 430px;
+    height: 100%;
+    background-color: #535759;
+    color: white;
+    
+}
+.left h2{
+    text-align: center;
+}
+.left li{
+    line-height: 24px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.right{
+    float: left;
+    position: relative;
+    width: 570px;
+}
+button{
+    outline: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #333;
+    color: white;
+    border: 0;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+img{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #ff6f00;
+}

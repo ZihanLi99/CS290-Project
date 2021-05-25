@@ -1,0 +1,31 @@
+*{
+    color: #999;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 2px dotted #535759;
+}
+h3{
+    color: #535759;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.text{
+    outline: none;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #999;
+}
+.submit{
+    width: 150px;
+    height: 50px;
+    background-color: #ff6f00;
+    margin-top: 20px;
+    margin-left: 450px;
+    border-radius: 3px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}

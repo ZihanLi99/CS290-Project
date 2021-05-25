@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dumpling</title>
+    <link rel="stylesheet" href="style/questionnaire.css">
+    <link rel="stylesheet" href="style/base.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div>
+            <a href="home.html"> HOME</a>
+            <a href="steps.html"> STEPS</a>
+            <a href="methods.html"> METHODS</a>
+            <a href="questionnaire.html"> QUESTIONNAIRE</a>
+        </div>
+
+    </nav>
+    <section class="content">
+        <h1>Questionnaire about dumplings</h1>
+        <form name="dumplings" method="post"
+            action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php">
+            <h3>Your gender</h3>
+            <input type="radio" name="gender"> woman
+            <input type="radio" name="gender"> man
+            <h3>Do you like dumplings?</h3>
+            <input type="radio" name="Q1"> yes
+            <input type="radio" name="Q1"> no
+            <h3>Do you like dumplings of various shapes?</h3>
+            <input type="radio" name="Q2"> yes
+            <input type="radio" name="Q2"> no
+            <input type="radio"> indifferent
+            <h3>Have you ever made dumplings by yourself?</h3>
+            <input type="radio" name="Q3"> yes
+            <input type="radio" name="Q3"> no
+            <h3>What kind of stuffing do you like best?</h3>
+            <input type="text" name="Q4" class="text">
+            <br>
+            <input type="submit" class="submit" name="submit" value="submit">
+        </form>
+
+    </section>
+
+</body>
+
+</html>
